@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    color: #fff;
+}
+/* #banner_1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(247, 90, 208, 0.7)), url("./wall2.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    border-bottom: 2px inset #FCF6BD;
+} */
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("./math2.png");
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+}
+.container{
+    text-align: center;
+}
+.container div{
+    margin: 10px 0;
+}
+.container div p{
+    font-size: x-large;
+}
+
+button{
+    padding: 10px;
+    background-color: tomato;
+    font-size: large;
+    border-radius: 10px;
+    width: 10rem;
+    cursor: pointer;
+}
